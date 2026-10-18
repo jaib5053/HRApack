@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *, [data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-cursive: 'Dancing Script', cursive;
+}
+
+@source "./index.html";
+@source "./form-12bb.html";
+@source "./landlord-declaration.html";
+@source "./revenue-stamp-rules.html";
+@source "./js/**/*.js";

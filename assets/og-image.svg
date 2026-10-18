@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#fcd34d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Abstract decorative circles -->
+  <circle cx="1100" cy="100" r="300" fill="#ffffff" fill-opacity="0.05" />
+  <circle cx="100" cy="550" r="250" fill="#ffffff" fill-opacity="0.04" />
+
+  <!-- Main Card Container -->
+  <g transform="translate(100, 80)">
+    <!-- Brand Badge -->
+    <rect x="0" y="0" width="180" height="48" rx="24" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-opacity="0.25" />
+    <text x="32" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#ffffff">🧾 HRAPack</text>
+
+    <!-- Main Headline -->
+    <text x="0" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="-1">
+      Free HRA Rent Receipt Generator
+    </text>
+    <text x="0" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="url(#gold)" letter-spacing="-1">
+      &amp; Official Form 12BB Kit
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="400" fill="#bfdbfe">
+      Zero telemarketing spam • 100% Client-side privacy • Updated for FY 2025-26 &amp; FY 2026-27
+    </text>
+
+    <!-- 3 Value Pill Cards -->
+    <g transform="translate(0, 310)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="310" height="120" rx="16" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.2" filter="url(#shadow)" />
+      <text x="24" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28">📅</text>
+      <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">12 Monthly Receipts</text>
+      <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#93c5fd">Sequential numbers &amp; stamps</text>
+
+      <!-- Pill 2 -->
+      <rect x="330" y="0" width="310" height="120" rx="16" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.2" filter="url(#shadow)" />
+      <text x="354" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28">📋</text>
+      <text x="354" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Pre-Filled Form 12BB</text>
+      <text x="354" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#93c5fd">Official Rule 26C declaration</text>
+
+      <!-- Pill 3 -->
+      <rect x="660" y="0" width="330" height="120" rx="16" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.2" filter="url(#shadow)" />
+      <text x="684" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28">🔒</text>
+      <text x="684" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">100% Private &amp; Free</text>
+      <text x="684" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#93c5fd">No login, phone, or server storage</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "name": "HRAPack - Free HRA Rent Receipts & Form 124 / 12BB",
+  "short_name": "HRAPack",
+  "description": "Privacy-first HRA rent receipt generator, Form 124, Form 12BB, and Landlord Declaration kit for Indian salaried taxpayers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
